@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <group
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/drawer_item_familia"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Familia"/>
+            <item
+                android:id="@+id/drawer_item_amigos"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Amigos"/>
+            <item
+                android:id="@+id/drawer_item_peter"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Peter Pan - Wendy"/>
+            <item
+                android:id="@+id/drawer_item_peter_jane"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Peter Pan - Jane"/>
+        </group>
+    <item android:title="Puntajes">
+        <menu>
+            <item
+                android:id="@+id/drawer_puntaje_familia"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Familia"/>
+            <item
+                android:id="@+id/drawer_puntaje_amigos"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Amigos"/>
+            <item
+                android:id="@+id/drawer_puntaje_wendy"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Peter Pan - Wendy"/>
+            <item
+                android:id="@+id/drawer_puntaje_jane"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Peter Pan - Jane"/>
+        </menu>
+    </item>
+</menu>

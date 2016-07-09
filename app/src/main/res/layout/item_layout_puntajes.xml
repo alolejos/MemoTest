@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puesto"
+            android:gravity="center"
+            android:id="@+id/puesto"
+            android:textSize="@dimen/abc_text_size_medium_material" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            android:gravity="center"
+            android:id="@+id/nombre"
+            android:textSize="@dimen/abc_text_size_medium_material" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            android:gravity="center"
+            android:id="@+id/tiempo"
+            android:textSize="@dimen/abc_text_size_medium_material" />
+    </TableRow>
+
+</TableLayout>

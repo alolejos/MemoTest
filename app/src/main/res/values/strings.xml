@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Memo Test</string>
+    <string name="nombre">Nombre</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Créditos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Bienvenidos al mejor juego familiar de memoria con elecciones para todos los gustos. \n Podremos ver a la familia, a los amigos y también a nuestros personajes favoritos.  \nA JUGAR!</string>
+    <string name="puntajes">Top 10 - Mejores Tiempos</string>
+</resources>

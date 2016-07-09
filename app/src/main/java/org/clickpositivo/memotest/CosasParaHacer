@@ -1,0 +1,33 @@
+1) Los packages van siempre en minuscula --> YA LO HICE
+
+2) En MainActivity, esta linea:
+                fragment = new MainActivity.BlankFragment();
+da error, ya que la clase BlankFragment esta en otro archivo, le borre el MainActivity y funciono --> YA ESTA
+
+
+3) Para que usaste la interface OnFragmentInteractionListener en todos los fragments y la implementaste en la activity si no la usaste? --> POR RECOMENDACIÓN DEL SISTEMA... YA ESTÁ ARREGLADO
+
+4) Todos los fragments repiten la logica del juego (metodo clickEnFicha) repiten la parte de guardar el resultado (metodo guardarResultado)
+y repiten el handler. La diferencia entre los fragments son las fichas que carga, podes resolver todo con una sola clase fragment,
+pasandole por argumento que tipo de fichas tiene que cargar, para no multiplicar el mismo codigo 4 o 5 veces.--> YA ESTA HECHO
+
+
+5) Nunca haces el close de la base de datos
+
+6) en el guardarPuntaje:
+
+        ArrayList<Puntaje> listado = new ArrayList<>();
+        listado = datos.getAll(6);
+
+
+No es necesario hacer el "new" de la lista, ya que luego la variable "listado" se carga con la lista que devuelve el metodo getAll,
+de modo que ese new es un objeto que nunca usas.(de echo aparece en gris esa parte porque no se usa)
+
+7) El menu de la toobar no hace nada --> SOLUCIOADO... AHORA MUESTRA CREDITOS
+
+8) En el dialogo que pide mi nombre, si no pongo un nombre y presiono OK, se guarda con el campo vacio.
+
+
+De todo esto me interesa que corrijas lo del codigo repetido, ya que realmente es algo que no esta bien.
+
+saludos
